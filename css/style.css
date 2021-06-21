@@ -403,7 +403,8 @@ a:hover {
   padding-left: 32px;
 }
 .header-binfo p {
-  text-indent: 24px;
+  text-indent: 00px;
+  text-align: justify;
   margin-bottom: 32px;
 }
 /*================================================================
