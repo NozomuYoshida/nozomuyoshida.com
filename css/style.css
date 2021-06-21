@@ -136,7 +136,7 @@ a:hover {
 }
 #header > .cv-section {
   border-top: 10px solid #FAFAFA;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #FAFAFA;
 }
 #header .img-profile {
   text-align: center;
