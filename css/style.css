@@ -469,15 +469,15 @@ ul {
 li {
   list-style: none;
 }
-li:before {
+/* li:before {
   font-family: 'FontAwesome';
-  font-size: 0px;
+  font-size: 6px;
   content: "";
   margin-right: 8px;
   top: -2px;
   position: relative;
   color: #757575;
-}
+} */
 /*================================================================
   #CONTENT - portfolio
   ================================================================*/
@@ -963,7 +963,7 @@ Stretchy Nav style - common to:
   position: fixed;
   z-index: 2;
   top: 40px;
-  right: 5%;
+  right: 1%;
   pointer-events: none;
 }
 .cd-stretchy-nav .stretchy-nav-bg {
@@ -975,8 +975,8 @@ Stretchy Nav style - common to:
   width: 60px;
   height: 60px;
   border-radius: 30px;
-  background: #BDBDBD;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background: #FFF;
+  /* box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); */
   -webkit-transition: height 0.2s, box-shadow 0.2s;
   -moz-transition: height 0.2s, box-shadow 0.2s;
   transition: height 0.2s, box-shadow 0.2s;
@@ -986,7 +986,7 @@ Stretchy Nav style - common to:
 }
 .cd-stretchy-nav.nav-is-visible .stretchy-nav-bg {
   height: 100%;
-  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2); */
 }
 
 .cd-nav-trigger {
@@ -1008,7 +1008,7 @@ Stretchy Nav style - common to:
   position: absolute;
   width: 16px;
   height: 2px;
-  background-color:#ffffff;
+  background-color:#BDBDBD;
 }
 .cd-nav-trigger span {
   /* middle line of the hamburger icon */
@@ -1086,7 +1086,7 @@ Stretchy Nav style - common to:
   display: block;
   height: 50px;
   line-height: 50px;
-  padding: 0 calc(1em + 60px) 0 1em;
+  padding: 0 calc(1em + 45px) 0 1em;
   color: #000000;
   font-size: 1.4rem;
   -webkit-transition: color 0.2s;
