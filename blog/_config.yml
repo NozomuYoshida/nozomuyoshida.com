@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your Blog Title # ブログのタイトル
-description: A description of your blog # ブログの説明
+title: のぞめも # ブログのタイトル
+# description: A description of your blog # ブログの説明
 permalink: /:title/ # パーマリンクの設定
 baseurl: "/blog"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
