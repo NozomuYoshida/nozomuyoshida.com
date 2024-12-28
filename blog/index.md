@@ -1,9 +1,9 @@
 ---
 layout: default
-title: まめしばブログ🐕
+title: のぞめも
 ---
 
-<h1>まめしばブログ</h1>
+<h1>のぞめも</h1>
 
 <ul>
   {% for post in site.posts %}
