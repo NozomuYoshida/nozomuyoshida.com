@@ -1,9 +1,9 @@
 ---
 layout: default
-title: My Awesome Blog
+title: まめしばブログ🐕
 ---
 
-<h1>Welcome to My Blog!</h1>
+<h1>まめしばブログ</h1>
 
 <ul>
   {% for post in site.posts %}
