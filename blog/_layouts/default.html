@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HELRNNVWJ9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HELRNNVWJ9');
+</script>
+  
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{% if page.title %}{{ page.title }} | {% endif %}Nozomu Yoshida</title>
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}Nozomu Yoshida{% endif %}">
+<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}Nozomu Yoshida{% endif %}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/themes/blue/pace-theme-flash.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+
+<!-- prod -->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.1/magnific-popup.min.css">
+<link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/css/themes/themes.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/css/demo.css' | relative_url }}">
+
+<link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}" />
+<link rel="/media/apple-touch-icon-precomposed" href="{{ '/media/apple-touch-icon-precomposed.png' | relative_url }}" />
+</head>
+<body>
+
+<div id="page" class="container">
+  
+
+  <!-- #header -->
+  <div id="content">
+
+    {{ content }}
+
+  </div>
+  <!-- #content -->
+  <div id="footer">
+    <p style="text-align: center;">
+      <a href="#">Top</a> | 
+      <a href="#education">Education</a> | 
+      <a href="#work">Work Experience</a> | 
+      <a href="#projects">Projects</a> | 
+      <a href="#awards">Awards</a> | 
+      <a href="#publications">Publications</a>
+    </p>
+    <div class="copyright">
+      <p>© <span class="year">2016–2024</span> Nozomu Yoshida | Update: 2024.11.11</p>
+    </div>
+    <!-- .copy right -->
+  </div>
+  <!-- #footer -->
+</div>
+<!-- #page -->
+<div class="addon">
+  <!-- <a class="to-top-btn addon-right waves-effect waves-block" title="Go to Top" href="#top"><i class="fa fa-angle-up"></i></a> -->
+  <!-- .to-top-btn -->
+  <!-- <a data-toggle="tooltip" data-placement="left" class="print-btn addon-right" title="Print" href="javascript:window.print()" class="print"><i class="fa fa-print"></i></a> -->
+  <!-- .print-btn -->
+  <!-- <a data-toggle="tooltip" data-placement="left"  class="download-btn addon-right" title="Download" href="javascript:;" class="downloads"><i class="fa fa-download"></i></a> -->
+  <!-- .download-btn -->
+</div>
+<!-- .addon -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script src="vendor/jquery/jquery-2.1.3.min.js"><\/script>')</script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.1/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.22/gmaps.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
+<script type="text/javascript" src="{{ '/js/vendor.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/js/script.js' | relative_url }}"></script>
+<!-- <script src="https://kit.fontawesome.com/ed566656f3.js" crossorigin="anonymous"></script> -->
+</body>
+</html>
