@@ -1,10 +1,7 @@
 ---
 layout: default
-title: のぞめも
+title: とある若手クラウドエンジニアの日常
 ---
-
-<h1>のぞめも</h1>
-
 <ul>
   {% for post in site.posts %}
     <li>
